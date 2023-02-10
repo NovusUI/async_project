@@ -5,8 +5,8 @@
   <script src="https://rawgit.com/mayognaise/aframe-gif-shader/master/dist/aframe-gif-shader.min.js"></script> 
   <link rel="stylesheet" type="text/css" href="styles.css">
   <body>
-    <div id="body-container" style="">
-    <a-scene embedded arjs>
+<!--     <div id="body-container" style=""> -->
+    <a-scene camera aspect-ratio="4:3" fov="50" embedded arjs>
       <a-marker type='pattern' url='pattern-images (1).patt'>
         <a-box position="0 1 0" rotation="0 45 0" color="#4CC3D9"></a-box>
       </a-marker>
@@ -59,7 +59,7 @@
       
       <a-entity camera></a-entity>
     </a-scene>
-    <div>
+<!--     <div> -->
      
   </body>
 </html>
